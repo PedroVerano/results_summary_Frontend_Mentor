@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsivo.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
@@ -18,41 +23,51 @@
   <main>
     <section>
       <div class="resultado">
-        <h2>Your Result</h2>
-        <h1>76</h1>
-        <span>of 100</span>
+        <h3>Your Result</h3>
+        <div class="score_resultado">
+          <h1>76</h1>
+          <span>of 100</span>
+        </div>
         <h2>Great</h2>
         <p>You scored higher than 65% of the people who have taken these tests.</p>
       </div>
       <div class="sumario">
         <h2>Summary</h2>
-        <div class="reaction">
-          <div>
+        <div class="reaction caixa">
+          <div class="nome-icone">
             <img src="./assets/images/icon-reaction.svg" alt="Icone reaction">
-            <span>Reaction</span>
+            <p>Reaction</p>
           </div>
-          <span class="numeros">80 / 100</span>
-        </div>
-        <div class="memory">
           <div>
+            <span class="score">80 </span> <span class="numeros">/ 100</span>
+          </div>
+        </div>
+        <div class="memory caixa">
+          <div class="nome-icone">
             <img src="./assets/images/icon-memory.svg" alt="Icone memory">
-            <span>Memory</span>
+            <p>Memory</p>
           </div>
-          <span class="numeros">92 / 100</span>
-        </div>
-        <div class="verbal">
           <div>
+            <span class="score">92 </span> <span class="numeros">/ 100</span>
+          </div>
+        </div>
+        <div class="verbal caixa">
+          <div class="nome-icone">
             <img src="./assets/images/icon-verbal.svg" alt="Icone verbal">
-            <span>Verbal</span>
+            <p>Verbal</p>
           </div>
-          <span class="numeros">61 / 100</span>
-        </div>
-        <div class="visual">
           <div>
-            <img src="./assets/images/icon-visual.svg" alt="Icone verbal">
-            <span>Visual</span>
+            <span class="score">61 </span> <span class="numeros">/ 100</span>
           </div>
-          <span class="numeros">72 / 100</span>
+        </div>
+        <div class="visual caixa">
+          <div class="nome-icone">
+            <img src="./assets/images/icon-visual.svg" alt="Icone verbal">
+            <p>Visual</p>
+          </div>
+          <div>
+            <span class="score">72 </span> <span class="numeros">/ 100</span>
+          </div>
         </div>
         <button class="botao">Continue</button>
       </div>

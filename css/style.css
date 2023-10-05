@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    background-color: hsl(221, 100%, 96%);
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body section {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    width: 600px;
+    height: 50vh;
+    display: flex;
+    border-radius: 2rem;
+}
+section .resultado {
+    background-color: hsl(241, 81%, 54%);
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    
+}
+
+.resultado h3 {
+    margin-top: 20px;
+    color: hsl(241, 100%, 89%);
+}
+
+.score_resultado {
+    background-image: linear-gradient(#00000025, #00000000);
+    color: hsl(0, 0%, 100%);
+    font-size: 45px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.score_resultado span {
+    font-size: 14px;
+    color: hsl(241, 100%, 89%);
+}
+
+.resultado h2 {
+    color: hsl(0, 0%, 100%) ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resultado p {
+    color: hsl(241, 100%, 89%);
+    font-size: 14px;
+    text-align: center;
+}
+
+section .sumario {
+    width: 50%;
+    height: 100%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.caixa {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.3rem;
+    border-radius: 0.6rem;
+    margin-top: 15px;
+    
+}
+
+.nome-icone{
+    display: flex;
+    display: row;
+}
+
+.reaction p {
+    color: hsl(0, 100%, 67%);
+}
+.memory p {
+    color: hsl(39, 100%, 56%);
+}
+.verbal p {
+    color: hsl(166, 100%, 37%);
+}
+.visual p {
+    color: hsl(234, 85%, 45%);
+}
+
+.sumario .reaction {
+    background-color: hsla(0, 100%, 67%, 0.137);
+    
+}
+.sumario .memory {
+    background-color: hsla(39, 100%, 56%, 0.137);
+}
+.sumario .verbal  {
+    background-color: hsla(166, 100%, 37%, 0.137);
+}
+.sumario .visual  {
+    background-color: hsla(234, 85%, 45%, 0.137);
+}
+
+.score {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.numeros {
+    color: hsl(241, 100%, 89%);
+}
+
+.botao {
+    background-color: hsl(224, 30%, 27%);
+    cursor: pointer;
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-top: 30px;
+}
+
+.botao:hover {
+    background-color: hsl(241, 81%, 54%);
+}
